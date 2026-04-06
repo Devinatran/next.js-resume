@@ -110,7 +110,7 @@ export default function ResumePage() {
  
             <article>
               <h3 className="text-lg font-bold text-stone-900 mb-1">Bobarista</h3>
-              <p className="text-sm font-semibold text-stone-500 mb-3">iTea</p>
+              <p className="text-sm font-semibold text-stone-500 mb-3">iTea · San Jose, CA</p>
               <ul className="space-y-1.5 text-sm text-stone-700">
                 <li className="flex gap-2">
                   <span className="text-teal-500 shrink-0">—</span>
@@ -133,7 +133,7 @@ export default function ResumePage() {
             <article>
               <h3 className="text-lg font-bold text-stone-900 mb-1">Hostess</h3>
               <p className="text-sm font-semibold text-stone-500 mb-3">
-                Kanji Sushi and Ramen
+                Kanji Sushi and Ramen · Brandon, FL
               </p>
               <ul className="space-y-1.5 text-sm text-stone-700">
                 <li className="flex gap-2">
@@ -185,8 +185,15 @@ export default function ResumePage() {
       </div>
  
       <footer className="border-t border-stone-200 px-8 py-6 text-center text-xs text-stone-400">
-        <p>Devina Tran · (669) 888-6869 · devinat987@gmail.com</p>
-      </footer>
+  <p>Devina Tran · Tampa, FL</p>
+  <p className="mt-1">
+    (669) 888-6869 ·{" "}
+    <a href="mailto:devinat987@gmail.com" className="hover:text-stone-700 transition-colors">
+      devinat987@gmail.com
+    </a>
+  </p>
+</footer>
+
  
     </main>
   );
